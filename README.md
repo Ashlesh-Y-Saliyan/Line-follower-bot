@@ -1,23 +1,15 @@
 # Line Follower Robot (LFR)
 
-This project is an autonomous Line Follower Robot built using Arduino Nano, a 5-channel IR sensor array, and the TB6612FNG dual motor driver.  
-The robot detects the line in real time and adjusts the motor speeds to follow the path smoothly.
+This is an autonomous Line Follower Robot project built using Arduino Nano and an IR sensor array.  
+The robot continuously detects the line position and controls the motors in real time to follow the path smoothly.
 
-## How it works
-- IR sensors detect the line position (left / center / right)
-- Arduino processes sensor readings and decides motion
-- TB6612FNG controls both DC motors for turning and forward movement
-- PID control is used for smoother and stable line following
-
-## Components Used
-- Arduino Nano
-- TB6612FNG Motor Driver
-- 5-Channel IR Sensor Array
-- N20 DC Motors
-- 2S Li-ion Battery Pack + Switch
+## Project Highlights
+- Real-time line detection using IR sensors
+- Motor control logic for forward, left and right turns
+- Practical robotics + embedded systems implementation
 
 ## Repository Contents
-Code → Arduino `.ino` source code
-- **images/** → Robot photos, sensor setup, and output/demo images
+- lfr_bot_code→ Arduino source code for sensor reading and motor control
+- lfr_images→ Robot photos, setup images and demo/output images
 
-Useful for robotics learning, embedded systems practice, and control applications.
+Useful for robotics learning and embedded control applications.
