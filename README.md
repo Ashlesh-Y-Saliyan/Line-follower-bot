@@ -11,10 +11,13 @@ The robot continuously detects the line position and controls the motors in real
 
 ## Repository Contents
 - **lfr_bot_code/**  
-  Contains the Arduino source code for IR sensor reading and motor control logic.
+  Arduino source code for IR sensor reading and motor control logic.
 
 - **circuit_diagram.jpg**  
   Circuit diagram showing connections between Arduino Nano, IR sensor array, motor driver, motors, and power supply.
+
+- **certificate.pdf**  
+  Participation certificate from the Line Follower Robot workshop.
 
 - **README.md**  
   Project overview and documentation.
