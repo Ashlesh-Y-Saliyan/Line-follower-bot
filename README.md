@@ -10,7 +10,7 @@ The robot continuously detects the line position and controls the motors in real
 - Practical exposure to circuit connections and debugging  
 
 ## Repository Contents
-- **lfr_bot_code/**  
+- **Lfr_code.ino**  
   Arduino source code for IR sensor reading and motor control logic.
 
 - **circuit_diagram.jpg**  
